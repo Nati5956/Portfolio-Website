@@ -1,0 +1,246 @@
+<head contenteditable="true"></head><body data-new-gr-c-s-check-loaded="14.1034.0" data-gr-ext-installed="" contenteditable="true" class=""><div class="frame-root" contenteditable="true"><div class="frame-content" contenteditable="true"><div contenteditable="true" class=""><div class="frame-root" contenteditable="true"><div class="frame-content" contenteditable="true"><div contenteditable="true" class="">
+
+
+
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://cdn.jsdelivr.net/npm/tailwindcss@2.0.4/dist/tailwind.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css">
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.1/css/all.min.css" rel="stylesheet">
+    <title>Freelancer Portfolio</title>
+
+
+
+    <!-- Header Section -->
+    <header class="py-4 px-6 bg-gray-800 text-white">
+        <nav class="flex justify-between items-center">
+            <a href="#" class="text-xl font-semibold">Logo</a>
+            <ul class="flex space-x-4">
+                <li><a href="#">Home</a></li>
+                <li><a href="#">About</a></li>
+                <li><a href="#">Portfolio</a></li>
+                <li><a href="#">Services</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <!-- Hero Section -->
+    <section class="py-16 px-6 bg-cover bg-center" style="background-image: url('https://source.unsplash.com/featured/1280x720/?freelancer')">
+        <div class="max-w-3xl mx-auto text-center">
+            <h1 class="text-4xl font-bold text-white mb-6">Welcome to my Portfolio</h1>
+            <a href="#" class="bg-blue-500 hover:bg-blue-600 text-white py-2 px-6 rounded-full">Learn More</a>
+        </div>
+    </section>
+
+    <!-- Feature Section -->
+    <section class="py-16 px-6">
+        <div class="max-w-3xl mx-auto">
+            <div class="grid grid-cols-1 sm:grid-cols-3 gap-8">
+                <div class="p-8 bg-white text-center shadow-lg">
+                    <i class="fas fa-laptop-code text-4xl text-blue-500 mb-4"></i>
+                    <h2 class="text-2xl font-bold mb-4">Web Development</h2>
+                    <p class="text-gray-700">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ipsam, sequi
+                        sunt! Nesciunt nisi, nostrum repellendus.</p>
+                    <a href="#" class="bg-blue-500 hover:bg-blue-600 text-white py-2 px-6 rounded-full mt-4">Learn
+                        More</a>
+                </div>
+                <div class="p-8 bg-white text-center shadow-lg">
+                    <i class="fas fa-paint-brush text-4xl text-blue-500 mb-4"></i>
+                    <h2 class="text-2xl font-bold mb-4">Graphic Design</h2>
+                    <p class="text-gray-700">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ipsam, sequi
+                        sunt! Nesciunt nisi, nostrum repellendus.</p>
+                    <a href="#" class="bg-blue-500 hover:bg-blue-600 text-white py-2 px-6 rounded-full mt-4">Learn
+                        More</a>
+                </div>
+                <div class="p-8 bg-white text-center shadow-lg">
+                    <i class="fas fa-camera text-4xl text-blue-500 mb-4"></i>
+                    <h2 class="text-2xl font-bold mb-4">Photography</h2>
+                    <p class="text-gray-700">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ipsam, sequi
+                        sunt! Nesciunt nisi, nostrum repellendus.</p>
+                    <a href="#" class="bg-blue-500 hover:bg-blue-600 text-white py-2 px-6 rounded-full mt-4">Learn
+                        More</a>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Individual Feature Sections -->
+    <section class="py-16 px-6 bg-cover bg-center" style="background-image: url('https://source.unsplash.com/featured/1280x720/?webdevelopment')">
+        <div class="max-w-3xl mx-auto text-white">
+            <h2 class="text-3xl font-bold mb-4">Web Development</h2>
+            <p class="text-lg mb-6">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Rem sapiente, dolorum,
+                ex quos omnis repellendus nesciunt error ullam dolor debitis nemo fugit voluptatibus reiciendis sequi.
+                Iusto aperiam harum deserunt facere?</p>
+            <a href="#" class="bg-blue-500 hover:bg-blue-600 text-white py-2 px-6 rounded-full">Learn More</a>
+        </div>
+    </section>
+
+    <section class="py-16 px-6 bg-cover bg-center" style="background-image: url('https://source.unsplash.com/1280x720/?graphicdesign')">
+        <div class="max-w-3xl mx-auto text-white">
+            <h2 class="text-3xl font-bold mb-4">Graphic Design</h2>
+            <p class="text-lg mb-6">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Rem sapiente, dolorum,
+                ex quos omnis repellendus nesciunt error ullam dolor debitis nemo fugit voluptatibus reiciendis sequi.
+                Iusto aperiam harum deserunt facere?</p>
+            <a href="#" class="bg-blue-500 hover:bg-blue-600 text-white py-2 px-6 rounded-full">Learn More</a>
+        </div>
+    </section>
+
+    <section class="py-16 px-6 bg-cover bg-center" style="background-image: url('https://source.unsplash.com/1280x720/?photography')">
+        <div class="max-w-3xl mx-auto text-white">
+            <h2 class="text-3xl font-bold mb-4">Photography</h2>
+            <p class="text-lg mb-6">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Rem sapiente, dolorum,
+                ex quos omnis repellendus nesciunt error ullam dolor debitis nemo fugit voluptatibus reiciendis sequi.
+                Iusto aperiam harum deserunt facere?</p>
+            <a href="#" class="bg-blue-500 hover:bg-blue-600 text-white py-2 px-6 rounded-full">Learn More</a>
+        </div>
+    </section>
+
+    <!-- Testimonial Section -->
+    <section class="py-16 px-6">
+        <div class="max-w-3xl mx-auto">
+            <div class="flex space-x-8">
+                <div class="p-8 bg-white shadow-lg">
+                    <i class="fas fa-quote-left text-4xl text-blue-500 mb-4"></i>
+                    <p class="text-lg">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus quis
+                        venenatis nisi, eu euismod metus.</p>
+                    <p class="mt-4 font-semibold">John Doe</p>
+                    <p class="text-gray-500">Web Developer</p>
+                </div>
+                <div class="p-8 bg-white shadow-lg">
+                    <i class="fas fa-quote-left text-4xl text-blue-500 mb-4"></i>
+                    <p class="text-lg">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus quis
+                        venenatis nisi, eu euismod metus.</p>
+                    <p class="mt-4 font-semibold">Jane Smith</p>
+                    <p class="text-gray-500">Graphic Designer</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Blog Section -->
+    <section class="py-16 px-6">
+        <div class="max-w-3xl mx-auto">
+            <h2 class="text-3xl font-bold mb-8">Recent Blog Posts</h2>
+            <div class="flex flex-col space-y-6">
+                <div class="bg-white p-6 shadow-lg">
+                    <h3 class="text-xl font-semibold">Blog Post Title</h3>
+                    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore
+                        et dolore magna aliqua.</p>
+                    <a href="#" class="text-blue-500 hover:text-blue-600">Read More</a>
+                </div>
+                <div class="bg-white p-6 shadow-lg">
+                    <h3 class="text-xl font-semibold">Blog Post Title</h3>
+                    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore
+                        et dolore magna aliqua.</p>
+                    <a href="#" class="text-blue-500 hover:text-blue-600">Read More</a>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- FAQ Section -->
+    <section class="py-16 px-6">
+        <div class="max-w-3xl mx-auto">
+            <h2 class="text-3xl font-bold mb-8">Frequently Asked Questions</h2>
+            <div class="space-y-6">
+                <div>
+                    <h3 class="text-lg text-blue-500 font-semibold">Question 1?</h3>
+                    <p class="pl-4">Answer to question 1.</p>
+                </div>
+                <div>
+                    <h3 class="text-lg text-blue-500 font-semibold">Question 2?</h3>
+                    <p class="pl-4">Answer to question 2.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Team Section -->
+    <section class="py-16 px-6">
+        <div class="max-w-3xl mx-auto">
+            <h2 class="text-3xl font-bold mb-8">Our Team</h2>
+            <div class="grid grid-cols-2 gap-8">
+                <div>
+                    <img src="team-member-1.jpg" alt="Team Member 1" class="w-full rounded-full">
+                    <p class="mt-4 font-semibold">John Doe</p>
+                    <div class="flex mt-2 space-x-2">
+                        <a href="#"><i class="fab fa-twitter text-blue-500"></i></a>
+                        <a href="#"><i class="fab fa-linkedin-in text-blue-500"></i></a>
+                    </div>
+                </div>
+                <div>
+                    <img src="team-member-2.jpg" alt="Team Member 2" class="w-full rounded-full">
+                    <p class="mt-4 font-semibold">Jane Smith</p>
+                    <div class="flex mt-2 space-x-2">
+                        <a href="#"><i class="fab fa-twitter text-blue-500"></i></a>
+                        <a href="#"><i class="fab fa-linkedin-in text-blue-500"></i></a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Newsletter Subscription -->
+    <section class="py-16 px-6 bg-gray-800 text-white">
+        <div class="max-w-3xl mx-auto">
+            <h2 class="text-3xl font-bold mb-6">Subscribe to our Newsletter</h2>
+            <form action="#" class="flex items-center">
+                <input type="email" placeholder="Enter your email address" class="py-2 px-4 rounded-l-full w-full">
+                <button type="submit" class="bg-blue-500 hover:bg-blue-600 py-2 px-4 rounded-r-full text-white">Subscribe</button>
+            </form>
+        </div>
+    </section>
+
+    <!-- Contact Form -->
+    <section class="py-16 px-6">
+        <div class="max-w-3xl mx-auto">
+            <h2 class="text-3xl font-bold mb-6">Contact Us</h2>
+            <form action="#" class="space-y-4">
+                <div>
+                    <label for="name" class="text-lg">Name:</label>
+                    <input type="text" id="name" class="border border-gray-300 rounded-full px-4 py-2 w-full">
+                </div>
+                <div>
+                    <label for="email" class="text-lg">Email:</label>
+                    <input type="email" id="email" class="border border-gray-300 rounded-full px-4 py-2 w-full">
+                </div>
+                <div>
+                    <label for="message" class="text-lg">Message:</label>
+                    <textarea id="message" rows="5" class="border border-gray-300 rounded-lg px-4 py-2 w-full"></textarea>
+                </div>
+                <button type="submit" class="bg-blue-500 hover:bg-blue-600 py-2 px-6 rounded-full text-white">Submit</button>
+            </form>
+        </div>
+    </section>
+
+    <!-- Map Section -->
+    <section class="py-16 px-6">
+        <div class="max-w-3xl mx-auto">
+            <h2 class="text-3xl font-bold mb-6">Visit Us</h2>
+            <div class="aspect-w-16 aspect-h-9">
+                <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d387945.25672974133!2d-74.25986537181113!3d40.69767082477135!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x89c25ab1f350fa71%3A0x3440a0ac497cdd25!2sNew%20York%2C%20NY%2C%20USA!5e0!3m2!1sen!2s!4v1616523980791!5m2!1sen!2s" frameborder="0" style="border:0;" allowfullscreen="" aria-hidden="false" tabindex="0" class="w-full h-full"></iframe>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer Section -->
+    <footer class="py-8 px-6 bg-gray-800 text-white">
+        <div class="flex justify-between">
+            <p>© 2021 Freelancer Portfolio. All Rights Reserved.</p>
+            <div class="flex space-x-4">
+                <a href="#"><i class="fab fa-twitter text-blue-500"></i></a>
+                <a href="#"><i class="fab fa-instagram text-blue-500"></i></a>
+                <a href="#"><i class="fab fa-linkedin-in text-blue-500"></i></a>
+            </div>
+        </div>
+    </footer>
+
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/scrollreveal/4.1.0/scrollreveal.min.js"></script>
+    <script>
+        ScrollReveal().reveal('.animate', { delay: 200, distance: '50px', duration: 1000, easing: 'ease-in' });
+        ScrollReveal().reveal('.animate-fade', { delay: 200, duration: 1000, easing: 'ease-in', opacity: 0 });
+    </script>
+
+
+</div></div></div><grammarly-desktop-integration data-grammarly-shadow-root="true" contenteditable="true"></grammarly-desktop-integration></div></div></div></body><grammarly-desktop-integration data-grammarly-shadow-root="true" contenteditable="true"></grammarly-desktop-integration>
